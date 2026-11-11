@@ -46,7 +46,7 @@ final class Session
         $resolvedPath = $config->resolvePath($rawPath);
 
         return new self(
-            $config->string('session.name', 'wildcrest_sid'),
+            $config->string('session.name', 'jaguar_safari_sid'),
             $resolvedPath,
             max(60, $config->int('session.idle_lifetime', 1800)),
             max(300, $config->int('session.absolute_lifetime', 28800)),

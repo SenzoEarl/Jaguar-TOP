@@ -1,6 +1,6 @@
 # Adding a New Staff Department
 
-Wildcrest Lodges & Camps models departments declaratively across code enums, permission maps, navigation configuration, database metadata, and isolated non-web storage folders. Adding a new department (for example, `Human Resources`) requires zero edits to authentication logic or core RBAC checks.
+Jaguar Safari models departments declaratively across code enums, permission maps, navigation configuration, database metadata, and isolated non-web storage folders. Adding a new department (for example, `Human Resources`) requires zero edits to authentication logic or core RBAC checks.
 
 Look for `// [FUTURE:HR-MODULE]` tags across the repository to locate every integration seam.
 

@@ -48,8 +48,8 @@
     </div>
 
     <div class="col-lg-5">
-      <div class="card wc-card p-4 sticky-top wc-sticky-card">
-        <span class="badge wc-badge-type align-self-start mb-2">{{ $product->getType()->label() }}</span>
+      <div class="card safari-card p-4 sticky-top safari-sticky-card">
+        <span class="badge safari-badge-type align-self-start mb-2">{{ $product->getType()->label() }}</span>
         <h1 class="h3 fw-bold mb-1">{{ $product->getName() }}</h1>
         <p class="text-muted small mb-3">{{ $product->getLocation() }}</p>
 
@@ -75,7 +75,7 @@
 
         <a
           href="{{ app_url('/bookings?product=' . urlencode($product->getSlug()), $basePath) }}"
-          class="btn btn-lg wc-btn-primary w-100 mb-2"
+          class="btn btn-lg safari-btn-primary w-100 mb-2"
         >
           Check Dates &amp; Book Stay
         </a>

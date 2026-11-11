@@ -1,6 +1,6 @@
 # Security Architecture & Verification Map
 
-All critical security controls in **Wildcrest Lodges & Camps** are visibly tagged with searchable `[SECURITY:*]` banner comments for rapid security audits and code reviews.
+All critical security controls in **Jaguar Safari** are visibly tagged with searchable `[SECURITY:*]` banner comments for rapid security audits and code reviews.
 
 > [!CAUTION]
 > **CRITICAL PRE-PRODUCTION WARNING — DEV/TEST SEED ACCOUNTS (`user0` .. `user8`)**

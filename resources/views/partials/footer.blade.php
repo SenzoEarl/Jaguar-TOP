@@ -1,4 +1,4 @@
-<footer class="wc-footer py-5 mt-5">
+<footer class="safari-footer py-5 mt-5">
   <div class="container">
     <div class="row g-4">
       <div class="col-md-5">

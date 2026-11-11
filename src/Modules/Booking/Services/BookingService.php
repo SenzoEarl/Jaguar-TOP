@@ -275,6 +275,6 @@ final class BookingService
 
     private function generateBookingReference(): string
     {
-        return sprintf('WLD-%s-%s', date('Y'), strtoupper(bin2hex(random_bytes(3))));
+        return sprintf('JGS-%s-%s', date('Y'), strtoupper(bin2hex(random_bytes(3))));
     }
 }

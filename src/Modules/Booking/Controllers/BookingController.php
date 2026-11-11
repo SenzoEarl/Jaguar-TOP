@@ -116,7 +116,7 @@ final class BookingController
         $bookingId = (int) ($params['id'] ?? 0);
         $booking = $this->bookingService->getConfirmationForUser($bookingId, $user->getId());
 
-        $brandName = $this->config->string('app.name', 'Wildcrest Lodges & Camps');
+        $brandName = $this->config->string('app.name', 'Jaguar Safari');
         $html = $this->views->render('booking.confirmation', [
             'pageTitle' => 'Booking Confirmed ' . $booking->getBookingReference() . ' | ' . $brandName,
             'metaDescription' => 'Reservation confirmation summary and check-in details.',

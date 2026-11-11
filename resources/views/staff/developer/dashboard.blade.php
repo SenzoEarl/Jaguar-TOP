@@ -12,7 +12,7 @@
 <div class="row g-3 mb-4">
   @foreach($summary->metrics as $metric)
     <div class="col-sm-6 col-xl-3">
-      <div class="card wc-card wc-metric-card p-3 h-100">
+      <div class="card safari-card safari-metric-card p-3 h-100">
         <span class="small text-muted fw-semibold">{{ $metric['title'] }}</span>
         <div class="fs-4 fw-bold mt-2">{{ $metric['value'] }}</div>
         <div class="small text-muted mt-1">{{ $metric['detail'] }}</div>
@@ -24,7 +24,7 @@
 @can('system.diagnostics.view')
   <div class="row g-4 mb-4">
     <div class="col-lg-5">
-      <div class="card wc-card p-4 h-100">
+      <div class="card safari-card p-4 h-100">
         <h2 class="h5 fw-bold mb-3">Runtime &amp; Seam Inventory</h2>
         <dl class="row small mb-0">
           <dt class="col-sm-5 text-muted">Environment</dt>
@@ -44,7 +44,7 @@
     </div>
 
     <div class="col-lg-7">
-      <div class="card wc-card p-4 h-100">
+      <div class="card safari-card p-4 h-100">
         <div class="d-flex justify-content-between align-items-center mb-3">
           <h2 class="h5 fw-bold mb-0">Sanitized Application Log Tail (Placeholder Viewer)</h2>
           <span class="badge bg-dark">Last 12 Lines</span>
@@ -52,7 +52,7 @@
         @if(empty($summary->systemDiagnostics['log_lines']))
           <p class="small text-muted mb-0">No log entries recorded yet in <code>storage/logs/</code>.</p>
         @else
-          <div class="wc-log-tail">@foreach($summary->systemDiagnostics['log_lines'] as $logLine){{ $logLine . "\n" }}@endforeach</div>
+          <div class="safari-log-tail">@foreach($summary->systemDiagnostics['log_lines'] as $logLine){{ $logLine . "\n" }}@endforeach</div>
         @endif
       </div>
     </div>

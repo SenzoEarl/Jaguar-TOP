@@ -1,7 +1,7 @@
 @php($deptSlug = $summary->department->value)
 @php($readOnlyFlag = $summary->isReadOnly)
 
-<div class="card wc-card mb-4" data-task-widget="true">
+<div class="card safari-card mb-4" data-task-widget="true">
   <div class="card-header bg-white d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-2 py-3">
     <div>
       <h2 class="h5 fw-bold mb-0">{{ $summary->department->label() }} Operational Tasks</h2>
@@ -67,7 +67,7 @@
           <input id="taskDueInput" type="date" name="due_date" class="form-control form-control-sm">
         </div>
         <div class="col-md-1 d-grid">
-          <button type="submit" class="btn btn-sm wc-btn-primary">Add</button>
+          <button type="submit" class="btn btn-sm safari-btn-primary">Add</button>
         </div>
         <div class="col-12">
           <input

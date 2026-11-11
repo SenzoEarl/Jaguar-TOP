@@ -8,7 +8,7 @@
       <p class="text-muted mb-4">
         Planning a family retreat, group charter, or multi-camp itinerary? Reach our desk directly or send an inquiry below.
       </p>
-      <div class="card wc-card p-4">
+      <div class="card safari-card p-4">
         <dl class="mb-0 small">
           <dt class="text-muted">Reservations Email</dt>
           <dd class="mb-3 fw-semibold">{{ $contactEmail }}</dd>
@@ -21,7 +21,7 @@
     </div>
 
     <div class="col-lg-7">
-      <div class="card wc-card p-4">
+      <div class="card safari-card p-4">
         <h2 class="h5 fw-bold mb-3">Send an Inquiry</h2>
         <form method="post" action="{{ app_url('/contact', $basePath) }}" novalidate>
           @csrf
@@ -68,7 +68,7 @@
               required
             >{{ $oldInput['message'] ?? '' }}</textarea>
           </div>
-          <button type="submit" class="btn wc-btn-primary">Submit Inquiry</button>
+          <button type="submit" class="btn safari-btn-primary">Submit Inquiry</button>
         </form>
       </div>
     </div>

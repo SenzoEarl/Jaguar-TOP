@@ -44,7 +44,7 @@ return [
 
     // [SECURITY:ERRORS] Monolog file logging parameters
     'logging' => [
-        'channel' => (string) env_value('LOG_CHANNEL', 'wildcrest'),
+        'channel' => (string) env_value('LOG_CHANNEL', 'jaguar_safari'),
         'path' => (string) env_value('LOG_PATH', 'storage/logs/app.log'),
         'level' => strtolower((string) env_value('LOG_LEVEL', 'warning')),
         'max_files' => env_int('LOG_MAX_FILES', 14),

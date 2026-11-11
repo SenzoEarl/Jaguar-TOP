@@ -94,7 +94,7 @@ final class ViewFactory
         );
 
         $shared = [
-            'appName' => $this->config->string('app.name', 'Wildcrest Lodges & Camps'),
+            'appName' => $this->config->string('app.name', 'Jaguar Safari'),
             'appUrl' => $this->config->string('app.url', 'http://127.0.0.1:8000'),
             'basePath' => $this->config->string('app.base_path', ''),
             'currency' => $this->config->string('app.booking_currency', 'USD'),

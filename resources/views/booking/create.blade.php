@@ -5,7 +5,7 @@
 <section class="container py-5">
   <div class="row justify-content-center">
     <div class="col-lg-8">
-      <div class="card wc-card p-4 p-md-5">
+      <div class="card safari-card p-4 p-md-5">
         <div class="d-flex justify-content-between align-items-start flex-wrap gap-2 mb-4">
           <div>
             <h1 class="h2 fw-bold mb-1">Reserve Your Stay</h1>
@@ -101,7 +101,7 @@
             <button type="button" class="btn btn-outline-success" data-check-availability="true">
               Check Live Availability
             </button>
-            <button type="submit" class="btn wc-btn-primary flex-grow-1">
+            <button type="submit" class="btn safari-btn-primary flex-grow-1">
               @if($currentUser !== null)
                 Confirm Reservation
               @else

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark wc-navbar sticky-top shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-dark safari-navbar sticky-top shadow-sm">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center gap-2" href="{{ app_url('/', $basePath) }}">
       <img src="{{ app_url('/assets/img/favicon.svg', $basePath) }}" alt="{{ $appName }}" width="28" height="28">
@@ -31,7 +31,7 @@
 
       <ul class="navbar-nav ms-auto align-items-lg-center gap-2">
         <li class="nav-item">
-          <a class="btn btn-sm wc-btn-gold" href="{{ app_url('/bookings', $basePath) }}">Book a Stay</a>
+          <a class="btn btn-sm safari-btn-gold" href="{{ app_url('/bookings', $basePath) }}">Book a Stay</a>
         </li>
         @if($currentUser !== null)
           @can('staff.portal.access')

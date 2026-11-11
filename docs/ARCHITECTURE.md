@@ -2,7 +2,7 @@
 
 ## 1. Architectural Style: Modular Monolith with Layered Separation
 
-**Wildcrest Lodges & Camps** is structured as a single, self-contained **modular monolith** following strict separation of concerns (`Controller -> Service -> Repository -> PDO`) and dependency injection via `App\Core\Container`.
+**Jaguar Safari** is structured as a single, self-contained **modular monolith** following strict separation of concerns (`Controller -> Service -> Repository -> PDO`) and dependency injection via `App\Core\Container`.
 
 Every HTTP request enters through the sole web-exposed front controller [`public/index.php`](../public/index.php):
 

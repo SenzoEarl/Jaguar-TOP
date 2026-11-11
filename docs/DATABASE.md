@@ -51,5 +51,5 @@ Re-running `database/seed.sql` cleanly upserts:
 - **8 Departments** (`general-admin`, `sales`, `care`, `supervisor`, `manager`, `senior-manager`, `director`, `developer`)
 - **9 Dev/Test User Accounts** (`user0` .. `user8`) with pre-generated Argon2id password hashes
 - **8 Products** spanning all 3 types (`lodge`, `camp`, `accommodation`) with matching local SVG illustrations under `public/assets/img/products/`
-- **4 Sample Bookings** (`WLD-2026-0001` .. `WLD-2026-0004`) for `user0` covering `confirmed`, `completed`, and `cancelled` states
+- **4 Sample Bookings** (`JGS-2026-0001` .. `JGS-2026-0004`) for `user0` covering `confirmed`, `completed`, and `cancelled` states
 - **12 Sample Staff Tasks** distributed across all 8 departments

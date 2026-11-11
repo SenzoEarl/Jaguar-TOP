@@ -1,16 +1,16 @@
 -- =============================================================================
--- Wildcrest Lodges & Camps - Relational Schema (MariaDB 10.4+ / 10.11+)
+-- Jaguar Safari - Relational Schema (MariaDB 10.4+ / 10.11+)
 -- =============================================================================
 -- Idempotent DDL: safe to re-run without destructive side effects.
 -- Charset/Collation: utf8mb4 / utf8mb4_unicode_ci across database and all tables.
 -- Naming convention: snake_case for all tables, columns, indexes, and constraints.
 -- =============================================================================
 
-CREATE DATABASE IF NOT EXISTS `wildcrest_lodges`
+CREATE DATABASE IF NOT EXISTS `jaguar_safari`
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
 
-USE `wildcrest_lodges`;
+USE `jaguar_safari`;
 
 -- -----------------------------------------------------------------------------
 -- 1. Roles (maps 1:1 to App\Support\Enums\Role backed int enum, levels 0..6)

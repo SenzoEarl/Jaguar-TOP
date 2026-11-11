@@ -18,7 +18,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ $appName }}">
   <meta property="og:url" content="{{ rtrim($appUrl, '/') . app_url($canonicalPath ?? '/', '') }}">
-  <meta property="og:image" content="{{ rtrim($appUrl, '/') . app_url($ogImage ?? '/assets/img/hero-wildcrest.svg', '') }}">
+  <meta property="og:image" content="{{ rtrim($appUrl, '/') . app_url($ogImage ?? '/assets/img/hero-jaguar-safari.svg', '') }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ $pageTitle ?? $appName }}">
   <meta name="twitter:description" content="{{ $metaDescription ?? 'Book luxury lodges, canvas camps, and wilderness stays.' }}">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="WildcrestLodgesPSR12">
-    <description>PSR-12 coding standard for Wildcrest Lodges &amp; Camps application.</description>
+<ruleset name="JaguarSafariPSR12">
+    <description>PSR-12 coding standard for Jaguar Safari application.</description>
 
     <arg name="colors"/>
     <arg value="sp"/>

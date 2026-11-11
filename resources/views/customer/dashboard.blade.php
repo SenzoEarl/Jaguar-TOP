@@ -14,11 +14,11 @@
       @can('staff.portal.access')
         <a href="{{ app_url('/staff/dashboard', $basePath) }}" class="btn btn-outline-dark">Open Staff Portal</a>
       @endcan
-      <a href="{{ app_url('/bookings', $basePath) }}" class="btn wc-btn-primary">New Reservation</a>
+      <a href="{{ app_url('/bookings', $basePath) }}" class="btn safari-btn-primary">New Reservation</a>
     </div>
   </div>
 
-  <div class="card wc-card">
+  <div class="card safari-card">
     <div class="card-header bg-white py-3">
       <h2 class="h5 fw-bold mb-0">Booking History</h2>
     </div>

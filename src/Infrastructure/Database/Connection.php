@@ -35,7 +35,7 @@ final class Connection
         return new self(
             $config->string('database.host', '127.0.0.1'),
             $config->int('database.port', 3306),
-            $config->string('database.database', 'wildcrest_lodges'),
+            $config->string('database.database', 'jaguar_safari'),
             $config->string('database.username', 'root'),
             $config->string('database.password', ''),
             $config->string('database.charset', 'utf8mb4'),

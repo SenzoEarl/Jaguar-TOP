@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="{{ app_url('/assets/css/app.css', $basePath) }}">
 </head>
 <body>
-  <header class="navbar navbar-expand-lg navbar-dark wc-navbar border-bottom border-secondary">
+  <header class="navbar navbar-expand-lg navbar-dark safari-navbar border-bottom border-secondary">
     <div class="container-fluid px-3">
       <a class="navbar-brand d-flex align-items-center gap-2" href="{{ app_url('/staff/dashboard', $basePath) }}">
         <img src="{{ app_url('/assets/img/favicon.svg', $basePath) }}" alt="{{ $appName }}" width="26" height="26">
@@ -53,8 +53,8 @@
   </header>
 
   <div class="container-fluid">
-    <div class="row wc-staff-shell">
-      <aside class="col-lg-3 col-xl-2 py-4 px-3 wc-staff-sidebar">
+    <div class="row safari-staff-shell">
+      <aside class="col-lg-3 col-xl-2 py-4 px-3 safari-staff-sidebar">
         @include('partials.staff-sidebar')
       </aside>
       <main class="col-lg-9 col-xl-10 py-4 px-4">

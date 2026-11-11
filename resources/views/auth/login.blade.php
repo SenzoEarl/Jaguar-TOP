@@ -5,7 +5,7 @@
 <section class="container py-5">
   <div class="row justify-content-center">
     <div class="col-md-6 col-lg-5">
-      <div class="card wc-card p-4 p-md-5">
+      <div class="card safari-card p-4 p-md-5">
         <h1 class="h3 fw-bold mb-2">Sign In</h1>
         <p class="text-muted small mb-4">
           Sign in with your username or email address to manage bookings or enter the staff portal.
@@ -36,7 +36,7 @@
               required
             >
           </div>
-          <button type="submit" class="btn wc-btn-primary w-100 mb-3">Sign In</button>
+          <button type="submit" class="btn safari-btn-primary w-100 mb-3">Sign In</button>
         </form>
 
         <div class="text-center small text-muted">

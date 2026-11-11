@@ -19,7 +19,7 @@
 <div class="row g-3 mb-4">
   @foreach($summary->metrics as $metric)
     <div class="col-sm-6 col-xl-3">
-      <div class="card wc-card wc-metric-card {{ $metric['is_placeholder'] ? 'wc-metric-card--placeholder' : '' }} p-3 h-100">
+      <div class="card safari-card safari-metric-card {{ $metric['is_placeholder'] ? 'safari-metric-card--placeholder' : '' }} p-3 h-100">
         <div class="d-flex justify-content-between align-items-start">
           <span class="small text-muted fw-semibold">{{ $metric['title'] }}</span>
           @if($metric['is_placeholder'])
@@ -33,7 +33,7 @@
   @endforeach
 </div>
 
-<div class="card wc-card mb-4">
+<div class="card safari-card mb-4">
   <div class="card-header bg-white d-flex justify-content-between align-items-center py-3">
     <h2 class="h5 fw-bold mb-0">Park Permits &amp; Regulatory Register</h2>
     <span class="badge bg-warning text-dark">Placeholder Feed</span>

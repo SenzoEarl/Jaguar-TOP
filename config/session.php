@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 return [
     // [SECURITY:SESSION] All session cookie and lifetime parameters driven by .env
-    'name' => (string) env_value('SESSION_NAME', 'wildcrest_sid'),
+    'name' => (string) env_value('SESSION_NAME', 'jaguar_safari_sid'),
     'save_path' => (string) env_value('SESSION_SAVE_PATH', 'storage/sessions'),
     'idle_lifetime' => env_int('SESSION_LIFETIME_IDLE', 1800),
     'absolute_lifetime' => env_int('SESSION_LIFETIME_ABSOLUTE', 28800),

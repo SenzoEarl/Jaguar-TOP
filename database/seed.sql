@@ -1,5 +1,5 @@
 -- =============================================================================
--- Wildcrest Lodges & Camps - Deterministic & Idempotent Seed Data
+-- Jaguar Safari - Deterministic & Idempotent Seed Data
 -- =============================================================================
 -- Safe to re-run repeatedly via INSERT ... ON DUPLICATE KEY UPDATE.
 -- Prerequisites: import database/schema.sql first.
@@ -13,7 +13,7 @@
 -- NON-LOCAL / STAGING / PRODUCTION DEPLOYMENT.
 -- =============================================================================
 
-USE `wildcrest_lodges`;
+USE `jaguar_safari`;
 
 SET NAMES utf8mb4;
 
@@ -272,7 +272,7 @@ INSERT INTO `bookings` (
 VALUES
     (
         1,
-        'WLD-2026-0001',
+        'JGS-2026-0001',
         'a111111111111111111111111111111111111111111111111111111111111101',
         1,
         1,
@@ -286,7 +286,7 @@ VALUES
     ),
     (
         2,
-        'WLD-2026-0002',
+        'JGS-2026-0002',
         'a111111111111111111111111111111111111111111111111111111111111102',
         1,
         4,
@@ -300,7 +300,7 @@ VALUES
     ),
     (
         3,
-        'WLD-2026-0003',
+        'JGS-2026-0003',
         'a111111111111111111111111111111111111111111111111111111111111103',
         1,
         7,
@@ -314,7 +314,7 @@ VALUES
     ),
     (
         4,
-        'WLD-2026-0004',
+        'JGS-2026-0004',
         'a111111111111111111111111111111111111111111111111111111111111104',
         1,
         8,
@@ -358,7 +358,7 @@ VALUES
     (2, 'Reconcile supplier fuel invoices', 'Cross-check generator diesel receipts for Sabie and Drakensberg sites.', 'todo', 'medium', 1, 2, 2, '2026-11-24', NULL),
     (3, 'Follow up on festive group inquiry (10 guests)', 'Prepare custom 4-night lodge quotation for corporate conservation retreat.', 'in_progress', 'high', 2, 3, 6, '2026-11-18', NULL),
     (4, 'Update Q1 seasonal rack rate sheet', 'Publish shoulder-season bundle notes for Care and General Admin review.', 'done', 'medium', 2, 3, 3, '2026-11-10', '2026-11-09 15:30:00'),
-    (5, 'Prepare vegetarian menu card for WLD-2026-0002', 'Coordinate pantry dietary items for Savanna Horizon Tented Camp arrival.', 'todo', 'high', 3, 4, 4, '2026-12-01', NULL),
+    (5, 'Prepare vegetarian menu card for JGS-2026-0002', 'Coordinate pantry dietary items for Savanna Horizon Tented Camp arrival.', 'todo', 'high', 3, 4, 4, '2026-12-01', NULL),
     (6, 'Inspect linen rotation & mosquito net inventory', 'Complete quarterly quality audit across all three camps.', 'in_progress', 'medium', 3, 4, 5, '2026-11-22', NULL),
     (7, 'Approve weekend ranger & housekeeping shift roster', 'Balance coverage across Eagle Ridge and Riverbend Crossing.', 'todo', 'high', 4, 5, 6, '2026-11-16', NULL),
     (8, 'Review guest feedback log from October stays', 'Summarize recurring maintenance items for Monday management briefing.', 'done', 'low', 4, 5, 5, '2026-11-08', '2026-11-08 11:15:00'),

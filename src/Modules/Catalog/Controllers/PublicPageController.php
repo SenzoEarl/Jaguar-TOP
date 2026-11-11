@@ -32,7 +32,7 @@ final class PublicPageController
 
     public function home(Request $request): Response
     {
-        $brandName = $this->config->string('app.name', 'Wildcrest Lodges & Camps');
+        $brandName = $this->config->string('app.name', 'Jaguar Safari');
         $featured = $this->catalog->getFeaturedStays(4);
 
         $html = $this->views->render('public.home', [
@@ -48,7 +48,7 @@ final class PublicPageController
 
     public function about(Request $request): Response
     {
-        $brandName = $this->config->string('app.name', 'Wildcrest Lodges & Camps');
+        $brandName = $this->config->string('app.name', 'Jaguar Safari');
 
         $html = $this->views->render('public.about', [
             'pageTitle' => 'About Us | ' . $brandName,
@@ -62,11 +62,11 @@ final class PublicPageController
 
     public function contact(Request $request): Response
     {
-        $brandName = $this->config->string('app.name', 'Wildcrest Lodges & Camps');
+        $brandName = $this->config->string('app.name', 'Jaguar Safari');
 
         $html = $this->views->render('public.contact', [
             'pageTitle' => 'Contact Concierge | ' . $brandName,
-            'metaDescription' => 'Reach the Wildcrest concierge desk for private group charters, '
+            'metaDescription' => 'Reach the Jaguar Safari concierge desk for private group charters, '
                 . 'custom itineraries, and lodge inquiries.',
             'canonicalPath' => '/contact',
         ]);

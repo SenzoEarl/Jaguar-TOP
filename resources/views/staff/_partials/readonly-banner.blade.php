@@ -1,6 +1,6 @@
 @php($readOnlyFlag = $isReadOnly ?? ($summary->isReadOnly ?? false))
 @if($readOnlyFlag)
-  <div class="wc-readonly-banner p-3 mb-4 d-flex align-items-center justify-content-between flex-wrap gap-2" role="status">
+  <div class="safari-readonly-banner p-3 mb-4 d-flex align-items-center justify-content-between flex-wrap gap-2" role="status">
     <div>
       <strong>Read-Only Cross-Department View:</strong>
       @if($currentUser !== null && $currentUser->getDepartment() !== null && $currentUser->getDepartment()->isLevelOne())

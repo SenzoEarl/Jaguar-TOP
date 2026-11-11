@@ -8,17 +8,17 @@
       <p class="text-muted mb-0">{{ $totalCount }} active property option(s) available for online reservation.</p>
     </div>
     <div class="btn-group flex-wrap" role="group" aria-label="Filter by accommodation type">
-      <a href="{{ app_url('/stays', $basePath) }}" class="btn btn-sm {{ $activeType === null ? 'wc-btn-primary' : 'btn-outline-secondary' }}">All</a>
-      <a href="{{ app_url('/lodges', $basePath) }}" class="btn btn-sm {{ ($activeType !== null && $activeType->value === 'lodge') ? 'wc-btn-primary' : 'btn-outline-secondary' }}">Lodges</a>
-      <a href="{{ app_url('/camps', $basePath) }}" class="btn btn-sm {{ ($activeType !== null && $activeType->value === 'camp') ? 'wc-btn-primary' : 'btn-outline-secondary' }}">Camps</a>
-      <a href="{{ app_url('/accommodation', $basePath) }}" class="btn btn-sm {{ ($activeType !== null && $activeType->value === 'accommodation') ? 'wc-btn-primary' : 'btn-outline-secondary' }}">Accommodation</a>
+      <a href="{{ app_url('/stays', $basePath) }}" class="btn btn-sm {{ $activeType === null ? 'safari-btn-primary' : 'btn-outline-secondary' }}">All</a>
+      <a href="{{ app_url('/lodges', $basePath) }}" class="btn btn-sm {{ ($activeType !== null && $activeType->value === 'lodge') ? 'safari-btn-primary' : 'btn-outline-secondary' }}">Lodges</a>
+      <a href="{{ app_url('/camps', $basePath) }}" class="btn btn-sm {{ ($activeType !== null && $activeType->value === 'camp') ? 'safari-btn-primary' : 'btn-outline-secondary' }}">Camps</a>
+      <a href="{{ app_url('/accommodation', $basePath) }}" class="btn btn-sm {{ ($activeType !== null && $activeType->value === 'accommodation') ? 'safari-btn-primary' : 'btn-outline-secondary' }}">Accommodation</a>
     </div>
   </div>
 
   <form
     method="get"
     action="{{ app_url($canonicalPath, $basePath) }}"
-    class="card wc-card p-3 mb-4"
+    class="card safari-card p-3 mb-4"
     data-catalog-filter-form="true"
   >
     <div class="row g-2 align-items-end">
@@ -45,34 +45,34 @@
         </select>
       </div>
       <div class="col-md-3 d-flex gap-2">
-        <button type="submit" class="btn wc-btn-primary flex-grow-1">Apply Filter</button>
+        <button type="submit" class="btn safari-btn-primary flex-grow-1">Apply Filter</button>
         <button type="button" class="btn btn-outline-secondary" data-reset-filters="true">Reset</button>
       </div>
     </div>
   </form>
 
   @if(empty($products))
-    <div class="card wc-card p-5 text-center">
+    <div class="card safari-card p-5 text-center">
       <h2 class="h5 fw-bold mb-2">No matching properties found</h2>
       <p class="text-muted mb-3">Try lowering the minimum guest requirement or clearing your search keywords.</p>
       <div>
-        <a href="{{ app_url($canonicalPath, $basePath) }}" class="btn wc-btn-primary">Show All Properties</a>
+        <a href="{{ app_url($canonicalPath, $basePath) }}" class="btn safari-btn-primary">Show All Properties</a>
       </div>
     </div>
   @else
     <div class="row g-4">
       @foreach($products as $product)
         <article class="col-md-6 col-lg-4">
-          <div class="card wc-card h-100">
+          <div class="card safari-card h-100">
             <img
               src="{{ app_url($product->getImagePath(), $basePath) }}"
               alt="{{ $product->getImageAlt() }}"
-              class="card-img-top wc-card-img"
+              class="card-img-top safari-card-img"
               loading="lazy"
             >
             <div class="card-body d-flex flex-column">
               <div class="d-flex justify-content-between align-items-center mb-2">
-                <span class="badge wc-badge-type">{{ $product->getType()->label() }}</span>
+                <span class="badge safari-badge-type">{{ $product->getType()->label() }}</span>
                 <span class="small text-muted">{{ $product->getBedrooms() }} bedroom(s) &middot; Max {{ $product->getMaxGuests() }}</span>
               </div>
               <h2 class="h5 card-title fw-bold mb-1">{{ $product->getName() }}</h2>
@@ -85,7 +85,7 @@
                 </span>
                 <div class="d-flex gap-2">
                   <a href="{{ app_url($product->detailPath(), $basePath) }}" class="btn btn-sm btn-outline-secondary">Explore</a>
-                  <a href="{{ app_url('/bookings?product=' . urlencode($product->getSlug()), $basePath) }}" class="btn btn-sm wc-btn-primary">Book</a>
+                  <a href="{{ app_url('/bookings?product=' . urlencode($product->getSlug()), $basePath) }}" class="btn btn-sm safari-btn-primary">Book</a>
                 </div>
               </div>
             </div>

@@ -1,23 +1,23 @@
 /*
- * Wildcrest Lodges & Camps - Custom Stylesheet (layered over Bootstrap 5)
+ * Jaguar Safari - Custom Stylesheet (layered over Bootstrap 5)
  * Served locally under strict CSP (no external CDNs or inline styles).
  */
 
 :root {
-  --wc-emerald: #1b4332;
-  --wc-emerald-dark: #102a22;
-  --wc-emerald-soft: #d8f3dc;
-  --wc-ochre: #d4a373;
-  --wc-gold: #e9c46a;
-  --wc-cream: #fefae0;
-  --wc-sand: #f8f6f0;
-  --wc-ink: #1f2937;
-  --wc-muted: #5b6570;
+  --safari-emerald: #1b4332;
+  --safari-emerald-dark: #102a22;
+  --safari-emerald-soft: #d8f3dc;
+  --safari-ochre: #d4a373;
+  --safari-gold: #e9c46a;
+  --safari-cream: #fefae0;
+  --safari-sand: #f8f6f0;
+  --safari-ink: #1f2937;
+  --safari-muted: #5b6570;
 }
 
 body {
-  color: var(--wc-ink);
-  background-color: var(--wc-sand);
+  color: var(--safari-ink);
+  background-color: var(--safari-sand);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,170 +28,170 @@ main {
   min-width: 0;
 }
 
-.wc-navbar {
-  background-color: var(--wc-emerald-dark);
+.safari-navbar {
+  background-color: var(--safari-emerald-dark);
 }
 
-.wc-navbar .navbar-brand {
-  color: var(--wc-cream);
+.safari-navbar .navbar-brand {
+  color: var(--safari-cream);
   font-weight: 700;
   letter-spacing: 0.02em;
 }
 
-.wc-navbar .navbar-brand img {
+.safari-navbar .navbar-brand img {
   flex-shrink: 0;
 }
 
-.wc-navbar .nav-link {
+.safari-navbar .nav-link {
   color: rgba(254, 250, 224, 0.88);
 }
 
-.wc-navbar .nav-link:hover,
-.wc-navbar .nav-link.active {
-  color: var(--wc-gold);
+.safari-navbar .nav-link:hover,
+.safari-navbar .nav-link.active {
+  color: var(--safari-gold);
 }
 
-.wc-hero {
-  background: linear-gradient(135deg, var(--wc-emerald-dark) 0%, var(--wc-emerald) 100%);
-  color: var(--wc-cream);
-  border-bottom: 4px solid var(--wc-ochre);
+.safari-hero {
+  background: linear-gradient(135deg, var(--safari-emerald-dark) 0%, var(--safari-emerald) 100%);
+  color: var(--safari-cream);
+  border-bottom: 4px solid var(--safari-ochre);
 }
 
-.wc-hero-lead {
+.safari-hero-lead {
   color: rgba(254, 250, 224, 0.92);
 }
 
-.wc-sticky-card {
+.safari-sticky-card {
   top: 5rem;
   z-index: 100;
 }
 
-.wc-hero-image {
+.safari-hero-image {
   border-radius: 0.75rem;
   border: 2px solid rgba(233, 196, 106, 0.45);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.28);
 }
 
-.wc-btn-primary {
-  background-color: var(--wc-emerald);
-  border-color: var(--wc-emerald);
+.safari-btn-primary {
+  background-color: var(--safari-emerald);
+  border-color: var(--safari-emerald);
   color: #ffffff;
 }
 
-.wc-btn-primary:hover,
-.wc-btn-primary:focus {
-  background-color: var(--wc-emerald-dark);
-  border-color: var(--wc-emerald-dark);
-  color: var(--wc-gold);
+.safari-btn-primary:hover,
+.safari-btn-primary:focus {
+  background-color: var(--safari-emerald-dark);
+  border-color: var(--safari-emerald-dark);
+  color: var(--safari-gold);
 }
 
-.wc-btn-gold {
-  background-color: var(--wc-gold);
-  border-color: var(--wc-gold);
-  color: var(--wc-emerald-dark);
+.safari-btn-gold {
+  background-color: var(--safari-gold);
+  border-color: var(--safari-gold);
+  color: var(--safari-emerald-dark);
   font-weight: 600;
 }
 
-.wc-btn-gold:hover,
-.wc-btn-gold:focus {
-  background-color: var(--wc-ochre);
-  border-color: var(--wc-ochre);
-  color: var(--wc-emerald-dark);
+.safari-btn-gold:hover,
+.safari-btn-gold:focus {
+  background-color: var(--safari-ochre);
+  border-color: var(--safari-ochre);
+  color: var(--safari-emerald-dark);
 }
 
-.wc-card {
+.safari-card {
   border: 1px solid rgba(27, 67, 50, 0.12);
   border-radius: 0.75rem;
   transition: transform 0.16s ease, box-shadow 0.16s ease;
   background-color: #ffffff;
 }
 
-.wc-card:hover {
+.safari-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 0.75rem 1.5rem rgba(16, 42, 34, 0.09);
 }
 
-.wc-card-img {
+.safari-card-img {
   height: 210px;
   object-fit: cover;
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
 }
 
-.wc-badge-type {
-  background-color: var(--wc-emerald-soft);
-  color: var(--wc-emerald-dark);
+.safari-badge-type {
+  background-color: var(--safari-emerald-soft);
+  color: var(--safari-emerald-dark);
   font-weight: 600;
 }
 
-.wc-footer {
-  background-color: var(--wc-emerald-dark);
+.safari-footer {
+  background-color: var(--safari-emerald-dark);
   color: rgba(254, 250, 224, 0.85);
 }
 
-.wc-footer a {
-  color: var(--wc-gold);
+.safari-footer a {
+  color: var(--safari-gold);
   text-decoration: none;
 }
 
-.wc-footer a:hover {
+.safari-footer a:hover {
   text-decoration: underline;
 }
 
 /* Staff Portal Layout */
-.wc-staff-shell {
+.safari-staff-shell {
   min-height: calc(100vh - 56px);
 }
 
-.wc-staff-sidebar {
+.safari-staff-sidebar {
   background-color: #ffffff;
   border-right: 1px solid rgba(27, 67, 50, 0.14);
 }
 
 @media (max-width: 991.98px) {
-  .wc-staff-shell {
+  .safari-staff-shell {
     min-height: auto;
   }
 
-  .wc-staff-sidebar {
+  .safari-staff-sidebar {
     border-right: 0;
     border-bottom: 1px solid rgba(27, 67, 50, 0.14);
   }
 }
 
-.wc-staff-sidebar .nav-link {
-  color: var(--wc-ink);
+.safari-staff-sidebar .nav-link {
+  color: var(--safari-ink);
   border-radius: 0.5rem;
   padding: 0.5rem 0.75rem;
   margin-bottom: 0.2rem;
 }
 
-.wc-staff-sidebar .nav-link:hover {
-  background-color: var(--wc-sand);
+.safari-staff-sidebar .nav-link:hover {
+  background-color: var(--safari-sand);
 }
 
-.wc-staff-sidebar .nav-link.active {
-  background-color: var(--wc-emerald);
+.safari-staff-sidebar .nav-link.active {
+  background-color: var(--safari-emerald);
   color: #ffffff;
   font-weight: 600;
 }
 
-.wc-readonly-banner {
+.safari-readonly-banner {
   background-color: #fff8e6;
   border: 1px solid #f0c36d;
   color: #664d03;
   border-radius: 0.5rem;
 }
 
-.wc-metric-card {
-  border-left: 4px solid var(--wc-emerald);
+.safari-metric-card {
+  border-left: 4px solid var(--safari-emerald);
 }
 
-.wc-metric-card--placeholder {
-  border-left-color: var(--wc-ochre);
+.safari-metric-card--placeholder {
+  border-left-color: var(--safari-ochre);
 }
 
-.wc-log-tail {
+.safari-log-tail {
   background-color: #0f172a;
   color: #e2e8f0;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;

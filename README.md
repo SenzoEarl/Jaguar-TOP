@@ -1,4 +1,4 @@
-# Wildcrest Lodges & Camps
+# Jaguar Safari
 
 A production-oriented, multi-role web application for a conservation lodge, tented camp, and wilderness accommodation business built with **PHP 8.2/8.3+ (`strict_types=1`)**, **MariaDB 10.4+/10.11+ (PDO)**, **BladeOne**, **Bootstrap 5**, and **ES2022+ OOP vanilla JavaScript**.
 
@@ -39,7 +39,7 @@ cp .env.example .env
 ```
 
 Edit `.env` to match your local host settings:
-- Set `DB_HOST`, `DB_PORT`, `DB_DATABASE=wildcrest_lodges`, `DB_USERNAME`, `DB_PASSWORD`.
+- Set `DB_HOST`, `DB_PORT`, `DB_DATABASE=jaguar_safari`, `DB_USERNAME`, `DB_PASSWORD`.
 - If running under an Apache subdirectory (e.g. XAMPP `http://localhost/TOP/public`), set:
   ```dotenv
   APP_URL=http://localhost/TOP/public

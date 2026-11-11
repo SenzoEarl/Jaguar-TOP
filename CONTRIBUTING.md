@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Thank you for contributing to **Wildcrest Lodges & Camps**. All contributions must preserve security boundaries, strict typing, and consistent coding standards.
+Thank you for contributing to **Jaguar Safari**. All contributions must preserve security boundaries, strict typing, and consistent coding standards.
 
 ## Development Workflow
 

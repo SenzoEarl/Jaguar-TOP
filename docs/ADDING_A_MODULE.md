@@ -1,6 +1,6 @@
 # Adding a New Domain Module
 
-Wildcrest Lodges & Camps uses a zero-magic module registration pattern designed around `App\Core\ModuleInterface` and `App\Core\ModuleRegistry` so new business capabilities (such as CRM/Sales, HR scheduling, or Executive Reporting) slot into the application without editing core routing, authentication, CSRF, or error-handling code.
+Jaguar Safari uses a zero-magic module registration pattern designed around `App\Core\ModuleInterface` and `App\Core\ModuleRegistry` so new business capabilities (such as CRM/Sales, HR scheduling, or Executive Reporting) slot into the application without editing core routing, authentication, CSRF, or error-handling code.
 
 Look for `// [FUTURE:SALES-MODULE]`, `// [FUTURE:HR-MODULE]`, and `// [FUTURE:MANAGER-REPORTING]` comments in the codebase to see pre-built extension points.
 

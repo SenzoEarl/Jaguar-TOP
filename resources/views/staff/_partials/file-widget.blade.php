@@ -2,7 +2,7 @@
 @php($vaultFiles = $files ?? $summary->files)
 @php($vaultReadOnly = $isReadOnly ?? ($summary->isReadOnly ?? false))
 
-<div class="card wc-card mb-4" data-file-upload-widget="true">
+<div class="card safari-card mb-4" data-file-upload-widget="true">
   <div class="card-header bg-white d-flex flex-wrap justify-content-between align-items-center gap-2 py-3">
     <div>
       <h2 class="h5 fw-bold mb-0">{{ $vaultDepartment->label() }} Protected Document Vault</h2>
@@ -43,7 +43,7 @@
           >
         </div>
         <div class="col-md-2 d-grid">
-          <button type="submit" class="btn btn-sm wc-btn-primary">Upload</button>
+          <button type="submit" class="btn btn-sm safari-btn-primary">Upload</button>
         </div>
         <div class="col-12 small text-muted">
           Allowed: {{ implode(', ', $allowedExtensions ?? []) }} &middot; Max {{ number_format(($maxUploadBytes ?? 5242880) / 1048576, 1) }} MB (server checks real MIME via finfo)

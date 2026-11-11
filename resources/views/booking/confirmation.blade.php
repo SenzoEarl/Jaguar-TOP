@@ -5,7 +5,7 @@
 <section class="container py-5">
   <div class="row justify-content-center">
     <div class="col-lg-7">
-      <div class="card wc-card p-4 p-md-5">
+      <div class="card safari-card p-4 p-md-5">
         <span class="badge {{ $booking->getStatus()->badgeClass() }} align-self-start mb-2">
           Reservation {{ $booking->getStatus()->label() }}
         </span>
@@ -37,7 +37,7 @@
         </dl>
 
         <div class="d-flex flex-wrap gap-2">
-          <a href="{{ app_url('/account/dashboard', $basePath) }}" class="btn wc-btn-primary">View All My Bookings</a>
+          <a href="{{ app_url('/account/dashboard', $basePath) }}" class="btn safari-btn-primary">View All My Bookings</a>
           <a href="{{ app_url('/stays', $basePath) }}" class="btn btn-outline-secondary">Explore More Stays</a>
         </div>
       </div>

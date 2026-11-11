@@ -84,7 +84,7 @@ final class CatalogController
             $page
         );
 
-        $brandName = $this->config->string('app.name', 'Wildcrest Lodges & Camps');
+        $brandName = $this->config->string('app.name', 'Jaguar Safari');
         $heading = $type !== null ? $type->pluralLabel() : 'All Lodges, Camps & Stays';
         $description = $type !== null
             ? sprintf(
@@ -138,7 +138,7 @@ final class CatalogController
     private function renderDetail(ProductType $type, string $slug): Response
     {
         $product = $this->catalog->getDetail($type, $slug);
-        $brandName = $this->config->string('app.name', 'Wildcrest Lodges & Camps');
+        $brandName = $this->config->string('app.name', 'Jaguar Safari');
 
         $jsonLd = $product->toJsonLd(
             $this->config->string('app.url', 'http://127.0.0.1:8000'),

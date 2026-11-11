@@ -25,7 +25,7 @@ final class LoggerFactory
 
     public function create(): Logger
     {
-        $channel = $this->config->string('security.logging.channel', 'wildcrest');
+        $channel = $this->config->string('security.logging.channel', 'jaguar_safari');
         $rawPath = $this->config->string('security.logging.path', 'storage/logs/app.log');
         $logPath = $this->config->resolvePath($rawPath);
         $maxFiles = max(1, $this->config->int('security.logging.max_files', 14));

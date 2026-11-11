@@ -33,7 +33,7 @@ final class AuthController
     {
         $html = $this->views->render('auth.login', [
             'pageTitle' => 'Sign In | ' . $this->config->string('app.name'),
-            'metaDescription' => 'Sign in to manage your Wildcrest Lodges reservations or access the staff portal.',
+            'metaDescription' => 'Sign in to manage your Jaguar Safari reservations or access the staff portal.',
             'canonicalPath' => '/account/login',
         ]);
 
@@ -85,7 +85,7 @@ final class AuthController
     {
         $html = $this->views->render('auth.register', [
             'pageTitle' => 'Create Account | ' . $this->config->string('app.name'),
-            'metaDescription' => 'Register a guest account to book Wildcrest lodges, tented camps, and suites.',
+            'metaDescription' => 'Register a guest account to book Jaguar Safari lodges, tented camps, and suites.',
             'canonicalPath' => '/account/register',
         ]);
 
@@ -111,7 +111,7 @@ final class AuthController
         );
 
         $basePath = $this->config->string('app.base_path', '');
-        $this->session->flash('flash_success', 'Account created. Welcome to Wildcrest Lodges & Camps!');
+        $this->session->flash('flash_success', 'Account created. Welcome to Jaguar Safari!');
 
         return Response::redirect(app_url($this->accessControl->defaultLandingPath($user), $basePath));
     }
