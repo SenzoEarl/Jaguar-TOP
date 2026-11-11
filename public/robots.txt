@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /lodges
+Allow: /camps
+Allow: /accommodation
+Allow: /about
+Allow: /contact
+
+Disallow: /staff
+Disallow: /account
+Disallow: /bookings
+
+Sitemap: /sitemap.xml

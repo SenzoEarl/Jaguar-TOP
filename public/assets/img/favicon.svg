@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Wildcrest Lodges Emblem</title>
+  <rect width="64" height="64" rx="14" fill="#1b4332"/>
+  <circle cx="44" cy="20" r="8" fill="#e9c46a"/>
+  <path d="M8 46 L26 22 L38 38 L46 28 L56 46 Z" fill="#d4a373"/>
+  <path d="M16 46 L26 30 L34 42 L42 33 L50 46 Z" fill="#fefae0" opacity="0.9"/>
+  <rect x="8" y="48" width="48" height="4" rx="2" fill="#e9c46a"/>
+</svg>

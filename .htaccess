@@ -1,0 +1,14 @@
+Options -Indexes -MultiViews
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Block hidden dotfiles (.env, .htaccess, .git) and sensitive root directories/files
+    RewriteRule "(^|/)\." - [F,L]
+    RewriteRule ^(config|database|docs|node_modules|resources|src|storage|tests|vendor)(/|$) - [F,L]
+    RewriteRule ^(composer\.(json|lock)|package(-lock)?\.json|phpcs\.xml|phpunit\.xml|CHANGELOG\.md|CONTRIBUTING\.md|README\.md)$ - [F,L]
+
+    # Route root & friendly URLs internally to public/
+    RewriteCond %{REQUEST_URI} !/public(/|$)
+    RewriteRule ^(.*)$ public/$1 [L,QSA]
+</IfModule>

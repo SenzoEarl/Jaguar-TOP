@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>Savanna Ridge Tented Camp</title>
+  <defs>
+    <linearGradient id="bg-sr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b4332"/>
+      <stop offset="65%" stop-color="#d4a373"/>
+      <stop offset="100%" stop-color="#e9c46a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-sr)"/>
+  <circle cx="400" cy="140" r="56" fill="#fefae0" opacity="0.88"/>
+  <rect x="0" y="340" width="800" height="160" fill="#2d6a4f"/>
+  <g transform="translate(150,245)">
+    <polygon points="20,105 130,25 240,105" fill="#fefae0"/>
+    <polygon points="105,105 130,45 155,105" fill="#432818"/>
+    <rect x="5" y="105" width="250" height="12" rx="3" fill="#6f4518"/>
+  </g>
+  <g transform="translate(440,255)">
+    <polygon points="15,95 110,25 205,95" fill="#faedcd"/>
+    <polygon points="88,95 110,45 132,95" fill="#432818"/>
+    <rect x="0" y="95" width="220" height="10" rx="3" fill="#6f4518"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="WildcrestLodgesPSR12">
+    <description>PSR-12 coding standard for Wildcrest Lodges &amp; Camps application.</description>
+
+    <arg name="colors"/>
+    <arg value="sp"/>
+
+    <rule ref="PSR12"/>
+
+    <file>src</file>
+    <file>config</file>
+    <file>public/index.php</file>
+    <file>tests</file>
+
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/node_modules/*</exclude-pattern>
+    <exclude-pattern>*/storage/*</exclude-pattern>
+    <exclude-pattern>*/resources/views/*</exclude-pattern>
+</ruleset>

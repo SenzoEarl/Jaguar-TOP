@@ -1,0 +1,17 @@
+# Disable directory browsing
+Options -Indexes -MultiViews
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Block hidden dotfiles (.env, .htaccess, .git)
+    RewriteRule "(^|/)\." - [F]
+
+    # Serve existing static assets directly
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Route all application paths through the front controller
+    RewriteRule ^ index.php [L,QSA]
+</IfModule>

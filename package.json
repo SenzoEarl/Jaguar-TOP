@@ -1,0 +1,18 @@
+{
+  "name": "wildcrest-lodges-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend build, Bootstrap 5 local vendor bundle, and Airbnb ESLint configuration.",
+  "scripts": {
+    "lint:js": "eslint public/assets/js/**/*.js public/assets/js/*.js",
+    "copy:bootstrap": "node -e \"const fs=require('fs'); fs.mkdirSync('public/assets/vendor/bootstrap',{recursive:true}); fs.copyFileSync('node_modules/bootstrap/dist/css/bootstrap.min.css','public/assets/vendor/bootstrap/bootstrap.min.css'); fs.copyFileSync('node_modules/bootstrap/dist/js/bootstrap.bundle.min.js','public/assets/vendor/bootstrap/bootstrap.bundle.min.js');\""
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}

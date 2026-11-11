@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>Lakeview Manor Suites</title>
+  <defs>
+    <linearGradient id="bg-lm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d3557"/>
+      <stop offset="65%" stop-color="#457b9d"/>
+      <stop offset="100%" stop-color="#a8dadc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-lm)"/>
+  <circle cx="200" cy="115" r="46" fill="#fefae0"/>
+  <rect x="0" y="355" width="800" height="145" fill="#1d3557" opacity="0.88"/>
+  <g transform="translate(200,205)">
+    <polygon points="0,65 200,5 400,65" fill="#432818"/>
+    <rect x="26" y="65" width="348" height="86" fill="#fefae0"/>
+    <rect x="55" y="85" width="60" height="42" rx="4" fill="#457b9d"/>
+    <rect x="145" y="82" width="110" height="69" rx="4" fill="#d4a373"/>
+    <rect x="285" y="85" width="60" height="42" rx="4" fill="#457b9d"/>
+    <rect x="10" y="151" width="380" height="12" fill="#6f4518"/>
+  </g>
+</svg>

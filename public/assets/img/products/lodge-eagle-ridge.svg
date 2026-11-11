@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>Eagle Ridge Sanctuary Lodge</title>
+  <defs>
+    <linearGradient id="bg-er" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b4332"/>
+      <stop offset="100%" stop-color="#40916c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-er)"/>
+  <circle cx="640" cy="115" r="52" fill="#e9c46a"/>
+  <path d="M0 320 L210 210 L420 295 L630 190 L800 280 L800 500 L0 500 Z" fill="#143326"/>
+  <path d="M0 385 Q380 330 800 390 L800 500 L0 500 Z" fill="#2d6a4f"/>
+  <g transform="translate(215,245)">
+    <polygon points="0,70 185,0 370,70" fill="#582f0e"/>
+    <rect x="35" y="70" width="300" height="82" fill="#d4a373"/>
+    <rect x="65" y="90" width="60" height="42" rx="4" fill="#fefae0"/>
+    <rect x="155" y="88" width="60" height="64" rx="3" fill="#e9c46a"/>
+    <rect x="245" y="90" width="60" height="42" rx="4" fill="#fefae0"/>
+    <rect x="10" y="152" width="350" height="14" rx="4" fill="#432818"/>
+  </g>
+</svg>

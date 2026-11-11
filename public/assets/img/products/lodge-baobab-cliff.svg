@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>Baobab Cliff Lodge</title>
+  <defs>
+    <linearGradient id="bg-bc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3d2c2e"/>
+      <stop offset="60%" stop-color="#bc6c25"/>
+      <stop offset="100%" stop-color="#dda15e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-bc)"/>
+  <circle cx="620" cy="145" r="64" fill="#fefae0" opacity="0.9"/>
+  <polygon points="0,350 220,255 480,310 800,240 800,500 0,500" fill="#582f0e"/>
+  <polygon points="140,365 390,320 650,375 800,340 800,500 0,500 0,395" fill="#283618"/>
+  <g transform="translate(230,220)">
+    <polygon points="0,60 150,15 300,60" fill="#6f4518"/>
+    <rect x="28" y="60" width="244" height="64" fill="#fefae0"/>
+    <rect x="52" y="78" width="54" height="34" fill="#e9c46a"/>
+    <rect x="128" y="74" width="46" height="50" fill="#bc6c25"/>
+    <rect x="196" y="78" width="54" height="34" fill="#e9c46a"/>
+  </g>
+</svg>

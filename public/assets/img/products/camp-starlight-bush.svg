@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>Starlight Bush Camp</title>
+  <defs>
+    <linearGradient id="bg-sb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b132b"/>
+      <stop offset="65%" stop-color="#1c2541"/>
+      <stop offset="100%" stop-color="#3a506b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-sb)"/>
+  <circle cx="140" cy="80" r="4" fill="#fefae0"/>
+  <circle cx="260" cy="115" r="3" fill="#e9c46a"/>
+  <circle cx="510" cy="70" r="4" fill="#fefae0"/>
+  <circle cx="670" cy="120" r="3" fill="#fefae0"/>
+  <circle cx="590" cy="110" r="34" fill="#fefae0" opacity="0.92"/>
+  <rect x="0" y="345" width="800" height="155" fill="#1b4332"/>
+  <g transform="translate(245,235)">
+    <polygon points="0,115 155,20 310,115" fill="#d4a373"/>
+    <polygon points="118,115 155,48 192,115" fill="#e9c46a"/>
+    <circle cx="155" cy="95" r="14" fill="#f4a261"/>
+  </g>
+</svg>

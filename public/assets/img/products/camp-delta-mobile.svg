@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>Delta Mobile Expedition Camp</title>
+  <defs>
+    <linearGradient id="bg-dm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b4332"/>
+      <stop offset="60%" stop-color="#52b788"/>
+      <stop offset="100%" stop-color="#d8f3dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg-dm)"/>
+  <circle cx="635" cy="110" r="48" fill="#e9c46a"/>
+  <path d="M0 320 Q200 280 420 325 T800 305 L800 500 L0 500 Z" fill="#2d6a4f"/>
+  <path d="M0 390 Q240 425 520 385 T800 410 L800 500 L0 500 Z" fill="#1b4965"/>
+  <g transform="translate(185,235)">
+    <polygon points="0,90 95,20 190,90" fill="#fefae0"/>
+    <polygon points="220,90 315,20 410,90" fill="#faedcd"/>
+    <rect x="-10" y="90" width="430" height="12" rx="4" fill="#582f0e"/>
+  </g>
+</svg>

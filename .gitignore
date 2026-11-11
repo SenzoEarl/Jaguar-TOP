@@ -1,0 +1,31 @@
+# Dependencies & Environment
+/vendor/
+/node_modules/
+/.env
+/.env.*.local
+
+# Caches & Tooling Artifacts
+/.phpunit.result.cache
+/.eslintcache
+/composer.phar
+
+# Runtime Storage (keep directory scaffolding & Apache .htaccess locks)
+/storage/logs/*
+!/storage/logs/.gitkeep
+!/storage/logs/.htaccess
+
+/storage/sessions/*
+!/storage/sessions/.gitkeep
+!/storage/sessions/.htaccess
+
+/storage/cache/blade/*
+!/storage/cache/blade/.gitkeep
+!/storage/cache/blade/.htaccess
+
+/storage/departments/*/*
+!/storage/departments/*/.gitkeep
+!/storage/departments/*/.htaccess
+
+# OS Metadata
+.DS_Store
+Thumbs.db
